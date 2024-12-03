@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+    //     function myfunction(n){
+    //     if(n%2!==0){
+    //         return "even"
+    //     }
+    //     else{
+    //         return "odd"
+    //     }
+
+    // }
+    // document.getElementById("demo").innerHTML= myfunction(6);
+    // document.getElementById("demo").innerHTML= myfunction(5);
+    // const employee={id:"01",name:"john",designation:"manager"};
+    // console.log(employee);
+    // document.getElementById("demo").innerHTML= employee.id;
+
+    //array
+
+    // const cars= ["BMW","Merc","Ferrari","Lamborghini","Aston Martin"];
+    // cars.push("Lexus");
+    // cars.pop();
+    // console.log(cars.join("*"));
+    
+    // document.getElementById("demo").innerHTML= cars;
+    // document.getElementById("demo").innerHTML= cars.join("-");
+
+
+    //if else
+
+    // const time= new Date().getHours();
+    // let greetings;
+    // if(time<10){
+    //     greetings="good morning";
+    // }
+    // else if(time<20){
+    //     greetings="good day";
+    // }
+    // else{
+    //     greetings="good evening";
+    // }
+    // document.getElementById("demo").innerHTML=greetings;
+
+
+//switch syntax
+    let day;
+    switch(new Date().getDay()){
+        case 0:
+            day="Sunday"
+            break;
+        case 1:
+            day="Monday"
+            break;
+        case 2:
+            day="Tuesday"
+            break;
+        case 3:
+            day="Wednesday"
+            break;
+        case 4:
+            day="Thursday"
+            break;
+        case 5:
+            day="Friday"
+            break;
+        case 6:
+            day="Saturday"
+            break;
+    }
+
+    document.getElementById("demo").innerHTML=day;
+
+
+
+    </script>
+</body>
+</html>
