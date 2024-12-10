@@ -5,6 +5,7 @@ import Home from './Home';
 import Blogs from './Blogs';
 import Contact from './Contact';
 import NoPage from "./NoPage";
+import File1 from "./File1";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Route path="/Blogs" element={<Blogs/>}></Route>
       <Route path="/Contact" element={<Contact/>}></Route>
       <Route path="/NoPage" element={<NoPage/>}></Route>
+      <Route path="/File1" element={<File1/>}></Route>
        </Routes></BrowserRouter>
   );
 }

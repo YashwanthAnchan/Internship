@@ -1,8 +1,16 @@
 import React from 'react'
 
 function Contact() {
+  const style={
+    color: "white",
+    backgroundColor:"orange",
+    padding:"10px",
+    fontFamily:"Timesnewroman"
+  };
   return (
-    <div>Contact</div>
+    <>
+    <h1 style={style}>Contact</h1>
+    </>
   )
 }
 

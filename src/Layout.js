@@ -11,6 +11,7 @@ function Layout() {
     <ul><Link to='/Contact'>Contact</Link></ul>
     <ul><Link to='/Blogs'>Blogs</Link></ul>
     <ul><Link to='/NoPage'>NoPage</Link></ul>
+    <ul><Link to='/File1'>File1</Link></ul>
     </nav>
     </div>
   )
