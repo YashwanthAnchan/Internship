@@ -1,0 +1,246 @@
+* {
+    /* margin: 0;
+    padding: 10px; */
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bggimage {
+    background-color: black;
+    background-size: 100% auto;
+    background-position: top;
+    background-repeat: no-repeat;
+   margin: 0%;
+   padding: 0%;
+    
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    margin: 10px;
+    
+    
+    padding: 10px;
+    box-sizing: border-box;
+    height: 72px; 
+    width: 1500px;
+    background-image: ('img/logo.png');
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    
+}
+
+.nav-logo {
+    height: 10px;
+    width: 10px;
+    position: relative;
+    left: 138px;
+}
+.logosheer {
+    margin: 10px;
+    
+    
+    padding: 10px;
+}
+
+/* body {
+    background-image: url(img/_CKK1202.jpg);
+    height: 500px;
+    width: 700px;
+    
+} */
+
+body {
+    background-image: url('img/2022_bmw_m5-cs_sedan_base_fq_oem_5_1280x855.jpg');
+   background-position: top;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+     
+  }
+  .heading{
+    text-align: center;
+    color: white;
+    font-size: 200%;
+  }
+  .container{
+    /* background-color: black; Path to your image */
+    background-size:50px; /* Scales image to cover the entire background */
+    background-repeat: no-repeat; /* Prevents tiling of the image */
+    background-position:0vmin; /* Centers the image */
+  }
+
+  .container {
+    
+    display: flex; /* Enables flexbox */
+    gap: 10px; /* Adds space between the boxes */
+}
+
+.box {
+    width: 50%; /* Set width of each box */
+    padding: 40px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.image2{
+    float: right ;
+    width: 55%;
+    height: 55%;
+    padding:0vmin;
+}
+
+.image21{
+    background-color: white;
+    position: absolute;
+    width: 95%;
+    left: 2%
+}
+
+
+.backimage {
+    width: 100%; /* Full width */
+            height: 100vh; /* Full viewport height */
+            background-image: url('img/bmw-m4-competition-m-xdrive-convertible-2021-white-6500x5704-5512.jpg'); /* Add your image URL here */
+            background-size: cover; /* Make sure the image covers the entire section */
+            background-position: center; /* Center the image */
+            background-repeat: no-repeat; /* Prevent the image from repeating */
+            color: white; /* Text color for visibility */
+            display: flex; /* Flexbox for content alignment */
+            justify-content: center; /* Center content horizontally */
+            align-items: center;
+    
+}
+
+.history {
+    background-image: url('img/8S4A2674-1200x800.jpg');
+    color:black;
+    text-align: center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.opaque-box {
+    background-color: rgba(255, 255, 255, 0.8); 
+    color: rgb(0, 0, 0);                       
+    padding: 20px;                      
+    border-radius: 10px;               
+    width: 950px;
+    height: 680px ;                    
+    text-align: center;                 
+    margin: 20px auto;                 
+}
+
+.museum {
+    float: right ;
+   
+    padding:0vmin;
+}
+r2{
+    float: right ;
+    width: 70%;
+    height: 55%;
+    padding:0vmin;
+}
+.club {
+    float: right ;
+   
+    padding:0vmin;
+}
+.group{
+    float: right ;
+   
+    padding:0vmin;
+}
+.button3{
+    
+   
+    padding:0vmin;
+}
+.colabs {
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+.cars {
+    background-image: url('img/2560x896-bmw-welt-hochhaus-werk.jpeg');
+    text-align: center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+
+r6{
+    float:right ;
+   
+    padding:0vmin;
+}
+.container1 {
+  
+    background-size:100px; 
+    background-repeat: no-repeat;
+    background-position:0vmin;
+    align-content: center;
+  }
+.container1 {
+    
+    display: flex;
+    gap: 0px; 
+}
+
+.box1 {
+    margin-left: 6%;
+    width: 40%;
+    padding: 20px;
+    color: white;
+    background-color: rgb(0, 102, 255);
+    border: 0px solid #ccc;
+    text-align: left;
+}
+.bmwm3 {
+    height: 110px ;
+    width: 180px;
+    border-radius: 50%;
+}
+.bmwm3gtr {
+    background-image: url('img/bmw-M3-GTR-NFS-03.jpg');
+    text-align: center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+r7{
+    float: right ;
+    width: 40%;
+    height: 50%;
+    padding:0vmin;
+}
+.image22{
+    background-color: white;
+    position: absolute;
+    width: 95%;
+    left: 2%
+}
+.image7{
+    float: left;
+    width: 45%;
+    height: 35%;
+    padding:0vmin;
+
+}
+.black{
+    background-color:black ;
+    color: white;
+    text-align: center
+}
+.end{
+    background-image: url('img/bmw-M3-GTR-NFS-03.jpg') ;
+    background-size: 100% auto;
+    background-position: top;
+    background-repeat: no-repeat;
+   margin: 0%;
+   padding: 0%;
+    
+    background-repeat: no-repeat;
+}
+
