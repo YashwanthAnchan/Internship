@@ -6,6 +6,7 @@ import Blogs from './Blogs';
 import Contact from './Contact';
 import NoPage from "./NoPage";
 import File1 from "./File1";
+import File2 from "./File2";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Route path="/Contact" element={<Contact/>}></Route>
       <Route path="/NoPage" element={<NoPage/>}></Route>
       <Route path="/File1" element={<File1/>}></Route>
+      <Route path="/File2" element={<File2/>}></Route>
        </Routes></BrowserRouter>
   );
 }
